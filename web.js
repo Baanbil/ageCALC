@@ -16,7 +16,7 @@ function checkAge(){
     resultDiv.textContent = "You should be in JHS 1👦"
     resultDiv.style.color = "yellow"
   } else if(age === 14){
-    resultDiv.textContent = "You shou;d be in JHS 2"
+    resultDiv.textContent = "You should be in JHS 2"
     resultDiv.style.color = "brown"
   } else if(age === 15){
     resultDiv.textContent = "You should be in your final year of JHS"
