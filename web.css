@@ -1,0 +1,71 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+.container {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 5px 5px 10px green;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 15px;
+}
+#ageInput{
+  padding: 10px  10px;
+  border-radius: 10px;
+  border: 2px solid green;
+}
+p{
+  color: green;
+}
+.check{
+  padding: 10px 10px;
+  border-radius: 10px;
+  border: 2px solid green;
+  color: green;
+  font-weight: bold;
+  background-color: transparent;
+}
+.result {
+  margin-top: 20px;
+  font-size: 1.2em;
+  color: #333;
+}
+h1{
+  font-size: 26px;
+}
+.box{
+  height: 100px;
+  width: 100px;
+  border: 3px solid green;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+.heart{
+  font-size: 40px;
+  text-align: center;
+  margin-top: 17px;
+
+  animation-name: grow;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+body{
+  background: linear-gradient(-45deg, rgb(60, 34, 34), yellow, pink, black);
+  background-size: 400% 400%;
+  animation: gradientBG 15s ease infinite;
+}
+@keyframes gradientBG{
+  0%{background-position: 0% 50%}
+  50%{background-position: 100% 50%;}
+  100%{background-position: 0% 50%}
+}
+@keyframes grow{
+  50%{transform: scale(2, 2)}
+}
